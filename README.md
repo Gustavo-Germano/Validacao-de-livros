@@ -18,25 +18,6 @@ Projeto desenvolvido com o objetivo de praticar conceitos de **Java Web**, **Ser
 - HTML
 - Apache Tomcat (ou servidor compatível)
 
-## 📂 Estrutura do Projeto
-src/main/java
-├── controller
-│ └── CadastroLivrosServlet.java
-├── model
-│ └── Livro.java
-├── exception
-│ └── ErroLivroException.java
-└── util
-├── GerarISBN.java
-└── GerarHtmlLivro.java
-
-src/main/webapp
-├── index.jsp
-├── view
-│ └── index.jsp
-└── WEB-INF
-└── web.xml
-
 ## 📌 Descrição Técnica
 O projeto utiliza um **Servlet** como controlador principal para receber requisições HTTP, processar os dados enviados pelo formulário e realizar as validações necessárias.
 
